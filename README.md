@@ -1,0 +1,2 @@
+# Overlap-Add-and-Overlap-Save-Method-for-Filtering-Long-Data-Sequences
+When input signals contain a large number of samples, direct computation of Discrete Fourier Transform (DFT) and Inverse Discrete Fourier Transform (IDFT) becomes computationally expensive. Instead, the signal is divided into smaller blocks, processed separately using convolution with a given filter, and then combined using two primary methods:
